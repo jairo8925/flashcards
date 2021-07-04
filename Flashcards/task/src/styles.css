@@ -29,6 +29,8 @@ html, body {
     flex: 0 0 150px;
     width: 150px;
     height: 150px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
 }
 
 .card p {
@@ -39,9 +41,4 @@ html, body {
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(56, 56, 56);
-}
-
-.card {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19pt;
 }
