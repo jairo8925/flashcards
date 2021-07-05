@@ -263,6 +263,58 @@ files:
         }
     );
   learner_created: false
+- name: src/styles.css
+  visible: true
+  text: |
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+        background-image: url("world.png");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cards {
+        max-width: 500px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        border-radius: 15px;
+        background-color: #fff5e6;
+        flex: 0 0 150px;
+        width: 150px;
+        height: 150px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 19pt;
+    }
+
+    .card p {
+        color: rgb(255, 125, 0);
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(56, 56, 56);
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/115/stages/627/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Mon, 05 Jul 2021 00:09:56 UTC
 record: -1
