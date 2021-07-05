@@ -5,6 +5,11 @@ html, body {
     width: 100%;
 }
 
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(56, 56, 56);
+}
+
 .container {
     height: 100%;
     width: 100%;
@@ -41,21 +46,6 @@ html, body {
     transform: rotateY(0deg);
 }
 
-.front p {
-    color: rgb(255, 125, 0);
-    text-align: center;
-}
-
-.back p {
-    color: #fff5e6;
-    text-align: center;
-}
-
-h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: rgb(56, 56, 56);
-}
-
 .front, .back {
     border-radius: 15px;
     display: flex;
@@ -78,5 +68,15 @@ h1 {
     background-color: rgb(255, 125, 0);
     z-index: 1;
     transform: rotateY(180deg);
+}
+
+.front p {
+    color: rgb(255, 125, 0);
+    text-align: center;
+}
+
+.back p {
+    color: #fff5e6;
+    text-align: center;
 }
 
